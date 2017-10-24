@@ -26,7 +26,7 @@ A firmware update is all that is needed to turn a USBASP AVR programmer
 into an I2C-Tiny-USB interface.
 (Note that the i2c_tiny_usb Linux kernel driver is broken in Linux 4.9 and Linux 4.11. But it works with this [patch](https://patchwork.kernel.org/patch/9711919).
 
-##Examples
+## Examples
 The library contains an example for reading barometer and compass data
 from an IMU (inertial measurement unit).
 Note that this example DOES NOT WORK unless you have the this specific
